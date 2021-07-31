@@ -138,11 +138,102 @@ a.nav-link:active {
     flex-wrap: wrap;
   }
   
-  footer h2 {
+  footer h4 {
     color: white;
-    font-size: 30px;
     margin: 0;
   }
   
 
   /* END FOOTER STYLES */
+
+  /* Lando-image.html style */
+
+.lando-img {
+    flex-wrap: wrap;
+    flex: 1 12%;
+}
+
+.lando-img img {
+    max-width: 100%;
+}
+
+/* end lando styles */
+
+  /* about me Css page */
+
+.about-me {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: silver;
+}
+
+.li-me:hover {
+    color: rgba(14, 14, 112, 0.486);
+    font-weight: 900;
+    list-style-type: none;
+    text-shadow: 2px 2px rgb(173, 193, 230);
+  }
+
+    /* end about me Css page */
+
+
+    /* recent work Css page */
+
+.title-work {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: silver;
+    flex-direction: column;
+    }
+
+.link-box {
+    padding: 20px 35px;
+      background-color:silver;
+      display: flex;
+      justify-content: space-between;
+}
+
+.run-img {
+        flex-wrap: wrap;
+        flex: 1 12%;
+    }
+    
+.run-img img {
+        max-width: 100%;
+    }
+
+.screenshots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(16, 49, 138, 0.623)
+    }
+}
+
+/* Recent work styles end */
+
+/* contact me styles start */
+
+#contact-info {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: silver;
+}
+
+.li-contact:hover {
+    color: rgba(14, 14, 112, 0.486);
+    font-weight: 900;
+    list-style-type: none;
+    text-shadow: 2px 2px rgb(173, 193, 230);
+  }
