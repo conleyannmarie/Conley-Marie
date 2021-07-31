@@ -1,0 +1,10 @@
+/* Lando-image.html style page */
+
+.lando-img {
+    flex-wrap: wrap;
+    flex: 1 12%;
+}
+
+.lando-img img {
+    max-width: 100%;
+}

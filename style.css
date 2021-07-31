@@ -1,7 +1,13 @@
+  /* Index.html and main Css page */
+  
+  body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
   /* HEADER / NAV BAR STYLES START */
   header {
       padding: 20px 35px;
-      background-color: rgba(235, 18, 101, 0.623);
+      background-color: rgba(16, 49, 138, 0.623);
       display: flex;
       justify-content: space-between;
       position: sticky;
@@ -20,3 +26,123 @@
     color: silver;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
+  header nav {
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+  
+  header nav ul li a:hover {
+    background: rgba(83, 9, 50, 0.589);
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+a.nav-link:link {
+    color: white;
+   text-decoration: none;
+}
+
+a.nav-link:visited {
+    color: white;
+   text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: white;
+   text-decoration: none;
+}
+
+a.nav-link:active {
+    color: white;
+   text-decoration: none;
+}
+
+/* Navigation Styles end */
+
+/* Introduction */
+
+.introduction {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: silver;
+}
+
+.conley-is {
+    width: 35%;
+    text-align: left;
+    margin: 3.5%;
+  }
+
+  .conley-is p {
+    margin: 5px 0 15px 0;
+  }
+
+       /* profile picture styles and dog link styles */
+
+  .profile-img {
+    flex: 1 12%;
+    margin-left: 20px;
+  }
+  
+  .profile-img img {
+    max-width: 100%;
+  }
+
+.dog-link:link {
+    color: white;
+   text-decoration: none;
+}
+
+.dog-link:visited {
+    color: white;
+   text-decoration: none;
+}
+
+.dog-link:hover {
+    color: white;
+   text-decoration: none;
+}
+
+.dog-link:active {
+    color: white;
+   text-decoration: none;
+}
+
+/* Introduction Styles End */
+
+  /* FOOTER STYLES START */
+  footer {
+    background: rgba(16, 49, 138, 0.623) ;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  footer h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+
+  /* END FOOTER STYLES */
