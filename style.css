@@ -208,6 +208,15 @@ a.nav-link:active {
         max-width: 100%;
     }
 
+    .book-img {
+      flex-wrap: wrap;
+      flex: 1 12%;
+  }
+  
+.book-img img {
+      max-width: 100%;
+  }
+
 .screenshots {
     display: flex;
     justify-content: center;
